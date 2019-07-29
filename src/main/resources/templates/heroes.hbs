@@ -1,0 +1,26 @@
+{{#partial "content"}}
+    {{#if heroes}}
+        <ul>
+            {{#each heroes}}
+                <li class="card col-lg-6">
+                    <h3 class="card-title" id="hero">Name:{{name}}</h3>
+                    <a href="/heroes/{{id}}" class="btn btn-outline-warning">Details</a>
+                    <a href="/squads/{{squadId}}" class="btn btn-outline-success">View squad</a>
+                </li>
+                <br><br>
+
+            {{/each}}
+        </ul>
+
+        {{else}}
+        <div class="card col-lg-8">
+            <img src="/images/download.jpeg" class="card-img-top">
+            <p class="card-text" id="squad" style="font-size: 22px">You have no heroes yet!!</p>
+        </div>
+        <br><br>
+    {{/if}}
+    <a href="/heroes/new" class="btn btn-lg btn-outline-primary col-md-5">Create heroes</a>
+
+{{/partial}}
+
+{{> layout.hbs}}

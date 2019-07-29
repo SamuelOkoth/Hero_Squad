@@ -1,0 +1,50 @@
+# Compiled source #
+############
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.bat
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+!gradle-wrapper.jar
+
+# Logs and databases #
+############
+*.log
+
+# OS generated files #
+############
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Java and Gradle #
+############
+build/
+.gradle/
+out/
+out
+gradlew.bat
+gradlew
+settings.gradle
+..gitignore.swp
+.classpath
+.project
+bin/
+gradle/wrapper/gradle-wrapper.properties

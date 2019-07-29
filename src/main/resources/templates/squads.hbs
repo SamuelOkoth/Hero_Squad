@@ -1,0 +1,24 @@
+{{#partial "title"}}
+    Squads!
+{{/partial}}
+
+{{#partial "content"}}
+    {{#if squads}}
+        {{#each squads}}
+            <div class="card col-lg-9">
+                <h1 class="text-center card-title" id="squad"> Squad name:{{name}}</h1>
+                    <a href="/squads/{{id}}" class="btn btn-outline-danger btn-lg col-md-6">View info</a>
+            </div>
+
+        {{/each}}
+    {{else}}
+        <div class="card col-md-12">
+            <img src="/images/source.gif" class="card-img-top">
+            <p id="hero" style="font-size:32px" class="card-text">You have no squads!</p>
+        </div>
+        <br><br>
+    {{/if}}
+    <a href="/squads/new" class="btn btn-outline-primary btn-lg">Create squads</a>
+{{/partial}}
+
+{{> layout.hbs}}
