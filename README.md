@@ -1,7 +1,7 @@
 # Heroes and Squads
 This project was created using spark framework and java language.
 #### Author
-* Victor Muchui.
+* Samuel Okoth
 ### Desription
 * This is a web application that you use to create a squad of superheroes by entering their mission, size and name.
 * Each superhero in a squad is created by using their name, age & strength.
@@ -24,9 +24,8 @@ This project was created using spark framework and java language.
 * click on the link to the deployed site [here](https://heroesandsquads.herokuapp.com/)
 #### Known Bugs
 * In case of of any bugs found please contact using the information below.
-#### Contact Information
-* email - kaigongimuchui@gmail.com
-* call  (+254 717304712)
+#### Contact
+okothsamuel78@gmail.com
 ## Copyright and license.
-* (c) 2019 Muchui Victor Moringa School.
+* (c) 2019 Moringa School.
 * MIT License.
