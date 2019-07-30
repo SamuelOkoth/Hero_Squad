@@ -14,8 +14,8 @@ public class SquadTest {
         Squad.clearSquads();
     }
     @Test
-    public void SquadInstatiatesCorrectly_true() {
-        Squad damn = new Squad("damners",12,"damn people");
+    public void SquadInstantiatesCorrectly_true() {
+        Squad damn = new Squad("damns",12,"damn people");
         assertTrue(damn instanceof Squad);
     }
     @Test
@@ -46,25 +46,25 @@ public class SquadTest {
     @Test
     public void getHeroes_returnsListOfHeroes_List() {
         Squad damn = new Squad("Shooters",1,"shoot");
-        Hero muchui = new Hero("amos",1,"kichwa","umama",damn.getId());
-        damn.addHero(muchui);
+        Hero sam = new Hero("amos",1,"kichwa","umama",damn.getId());
+        damn.addHero(sam);
         List<Hero> expected = new ArrayList<Hero>();
-        expected.add(muchui);
+        expected.add(sam);
         assertEquals(expected.get(0),damn.getHeroes().get(0));
     }
     @Test
     public void addHero_AddsHeroes_true() {
         Squad damn = new Squad("Shooters",1,"shoot");
-        Hero muchui = new Hero("muchui", 12, "brainee", "Girls",damn.getId());
-        damn.addHero(muchui);
-        assertTrue(damn.getHeroes().contains(muchui));
+        Hero sam = new Hero("muchui", 12, "brainee", "Girls",damn.getId());
+        damn.addHero(sam);
+        assertTrue(damn.getHeroes().contains(sam));
     }
     @Test
     public void addHero_doesNotAddHeroesOnceSquadSizeIsExceeded_false() {
         Squad damn = new Squad("Shooters",1,"shoot");
-        Hero muchui = new Hero("muchui", 12, "brainee", "Girls",damn.getId());
+        Hero sam = new Hero("sam", 12, "humble", "Girls",damn.getId());
         Hero victor = new Hero("vic",12,"brainiac","mainiacs",damn.getId());
-        damn.addHero(muchui);
+        damn.addHero(sam);
         damn.addHero(victor);
         assertTrue(damn.getHeroes().contains(muchui));
         assertFalse(damn.getHeroes().contains(victor));
