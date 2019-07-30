@@ -23,6 +23,4 @@ This project was created using spark framework and java language.
 ## Copyright and license.
 * (c) 2019
 * MIT License.
-
-*
 *mc19
