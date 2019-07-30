@@ -66,7 +66,7 @@ public class SquadTest {
         Hero victor = new Hero("vic",12,"brainiac","mainiacs",damn.getId());
         damn.addHero(sam);
         damn.addHero(victor);
-        assertTrue(damn.getHeroes().contains(muchui));
+        assertTrue(damn.getHeroes().contains(sam));
         assertFalse(damn.getHeroes().contains(victor));
     }
     @Test
