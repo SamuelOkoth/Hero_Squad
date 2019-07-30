@@ -6,6 +6,7 @@ This project was created using spark framework and java language.
 * This is a web application that you use to create a squad of superheroes by entering their mission, size and name.
 * Each superhero in a squad is created by using their name, size(age) & mission
 * A hero can be in one  squad
+* It is a very interactive project
 
 ### Prerequisites
 * Git
