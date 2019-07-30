@@ -15,8 +15,8 @@ This project was created using spark framework and java language.
 *  Heroku
 ### Set up
 #### Accessing locally.
-* Clone the repo into your machine by running the command ``.
-* Then navigate into the folder created `cd herosquad2`.
+* Clone the repo into your machine by running the command `https://github.com/SamuelOkoth/Hero_Squad.git`.
+* Then navigate into the folder created .
 * Run the commmand `$ gradle build` to download all dependencies.
 * Then run the command `$ gradle run
 
