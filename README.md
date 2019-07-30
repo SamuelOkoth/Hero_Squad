@@ -21,6 +21,6 @@ This project was created using spark framework and java language.
 * Then run the command `$ gradle run
 
 ## Copyright and license.
-* (c) 2019
+* (c) 2019 moringa school
 * MIT License.
-*mc19
+* mc19
