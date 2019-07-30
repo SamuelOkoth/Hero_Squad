@@ -55,7 +55,7 @@ public class SquadTest {
     @Test
     public void addHero_AddsHeroes_true() {
         Squad damn = new Squad("Shooters",1,"shoot");
-        Hero sam = new Hero("muchui", 12, "brainee", "Girls",damn.getId());
+        Hero sam = new Hero("sam", 12, "humble", "Girls",damn.getId());
         damn.addHero(sam);
         assertTrue(damn.getHeroes().contains(sam));
     }
@@ -72,9 +72,9 @@ public class SquadTest {
     @Test
     public void removeHero_removesSingleInstanceOfHero_false() {
         Squad damn = new Squad("Shooters",1,"shoot");
-        Hero muchui = new Hero("muchui", 12, "brainee", "Girls",damn.getId());
+        Hero sam = new Hero("sam", 12, "humble", "Girls",damn.getId());
         Hero victor = new Hero("vic",10,"trees","air",damn.getId());
-        damn.addHero(muchui);
+        damn.addHero(sam);
         damn.addHero(victor);
         damn.removeHero(victor);
         assertFalse(damn.getHeroes().contains(victor));
@@ -82,13 +82,13 @@ public class SquadTest {
     @Test
     public void removeHeroes_removesSingleInstanceOfHero_false() {
         Squad damn = new Squad("Shooters",2,"shoot");
-        Hero muchui = new Hero("muchui", 12, "brainee", "Girls",damn.getId());
+        Hero sam = new Hero("sam", 12, "humble", "Girls",damn.getId());
         Hero victor = new Hero("vic",10,"trees","air",damn.getId());
-        damn.addHero(muchui);
+        damn.addHero(sam);
         damn.addHero(victor);
         damn.removeHeroes();
         assertFalse(damn.getHeroes().contains(victor));
-        assertFalse(damn.getHeroes().contains(muchui));
+        assertFalse(damn.getHeroes().contains(sam));
     }
     @Test
     public void find_ReturnsAnInstanceOfSquad_Squad() {
@@ -97,8 +97,8 @@ public class SquadTest {
     }
     @Test
     public void find_returnsCorrectHeroWhenMoreThanOneExists_Hero() {
-        Squad damn = new Squad("Shooters",2,"shoot");
-        Squad another = new Squad("Clit",21,"hoop cake");
+
+        Squad another = new Squad("clit",21,"peke");
         assertEquals(another,Squad.find(2));
     }
 }

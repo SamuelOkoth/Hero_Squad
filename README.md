@@ -14,18 +14,11 @@ This project was created using spark framework and java language.
 * Gradle
 ### Set up
 #### Accessing locally.
-* Clone the repo into your machine by running the command `git clone https://github.com/vmuchui/herosquad2.git`.
+* Clone the repo into your machine by running the command ``.
 * Then navigate into the folder created `cd herosquad2`.
 * Run the commmand `$ gradle build` to download all dependencies.
-* Then run the command `$ gradle run`.
-##### on your browser
-* search for `localhost:4567`.
-#### Accessing remotely.
-* click on the link to the deployed site [here](https://heroesandsquads.herokuapp.com/)
-#### Known Bugs
-* In case of of any bugs found please contact using the information below.
-#### Contact
-okothsamuel78@gmail.com
+* Then run the command `$ gradle run
+
 ## Copyright and license.
 * (c) 2019 Moringa School.
 * MIT License.
