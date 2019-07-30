@@ -12,6 +12,7 @@ This project was created using spark framework and java language.
 * Text Editor of your choice.
 * internet access.
 * Gradle
+*Heroku
 ### Set up
 #### Accessing locally.
 * Clone the repo into your machine by running the command ``.
