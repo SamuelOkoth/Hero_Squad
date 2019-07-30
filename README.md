@@ -14,6 +14,12 @@ This project was created using spark framework and java language.
 * Gradle
 *  Heroku
 ### Set up
+
+* install intellij
+* install postgress
+* install heroku 
+* install maven
+
 #### Accessing locally.
 * Clone the repo into your machine by running the command `https://github.com/SamuelOkoth/Hero_Squad.git`.
 * Then navigate into the folder created .
